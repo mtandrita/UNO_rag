@@ -1,0 +1,53 @@
+/* style.css */
+/* Main background and global text color */
+.stApp {
+    background-color: #0e1117;
+    color: #ffffff !important;
+}
+
+/* Chat Message Bubbles */
+[data-testid="stChatMessage"] {
+    background-color: #1c1f26 !important;
+    border-radius: 15px;
+    padding: 20px;
+    margin-bottom: 15px;
+    border: 1px solid #30363d;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.3);
+}
+
+/* Force AI output text to be visible */
+[data-testid="stChatMessage"] p, [data-testid="stChatMessage"] li {
+    color: #f0f0f0 !important;
+    font-size: 1.05rem;
+    line-height: 1.6;
+}
+
+/* Agent Reasoning Box (The 'Status' Box) */
+.status-box {
+    padding: 12px;
+    border-radius: 8px;
+    background-color: #12141a;
+    border-left: 4px solid #00ffa2;
+    margin-bottom: 12px;
+    font-family: 'Courier New', monospace;
+    color: #00ffa2 !important;
+    font-size: 0.85rem;
+}
+
+/* Sidebar Styling */
+[data-testid="stSidebar"] {
+    background-color: #161b22 !important;
+    border-right: 1px solid #30363d;
+}
+
+/* Scrollbar styling for that 'Pro' feel */
+::-webkit-scrollbar {
+    width: 8px;
+}
+::-webkit-scrollbar-track {
+    background: #0e1117;
+}
+::-webkit-scrollbar-thumb {
+    background: #30363d;
+    border-radius: 10px;
+}
