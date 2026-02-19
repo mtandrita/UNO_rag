@@ -58,7 +58,7 @@ pip install streamlit langchain langchain-community langgraph langchain-ollama p
 streamlit run app.py
 ```
 
-Project Structure
+## Project Structure: 
 ├── app.py           # Main Streamlit application & LangGraph logic
 ├── style.css        # Custom high-contrast UI styling
 ├── temp.pdf         # Temporary storage for uploaded documents
