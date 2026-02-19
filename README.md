@@ -1,4 +1,4 @@
-# ⚡ Nexus Agentic RAG
+# ⚡ UNO Agentic RAG
 ### *Local Multi-Modal Knowledge Agent with LangGraph Self-Correction*
 
 ![Python](https://img.shields.io/badge/python-3.10+-blue.svg)
@@ -58,8 +58,4 @@ pip install streamlit langchain langchain-community langgraph langchain-ollama p
 streamlit run app.py
 ```
 
-## Project Structure: 
-├── app.py           # Main Streamlit application & LangGraph logic
-├── style.css        # Custom high-contrast UI styling
-├── temp.pdf         # Temporary storage for uploaded documents
-└── README.md        # Project documentation
+
