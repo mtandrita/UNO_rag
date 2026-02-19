@@ -56,6 +56,7 @@ pip install streamlit langchain langchain-community langgraph langchain-ollama p
 
 ###4. Run the App
 streamlit run app.py
+```
 
 Project Structure
 ├── app.py           # Main Streamlit application & LangGraph logic
