@@ -58,4 +58,13 @@ pip install streamlit langchain langchain-community langgraph langchain-ollama p
 streamlit run app.py
 ```
 
+## 🖼️ Demo: Intelligent Document Analysis
 
+In the example below, I uploaded a resume PDF and asked the system to "Summarize the key findings regarding multimodality." 
+
+![UNO AI Demo](./assets/demo_screenshot.png)
+
+**What's happening here:**
+1. **Document Input**: The user uploads a complex PDF (e.g., an academic paper or technical report) via the sidebar.
+2. **Retrieval & Analysis**: The system parses the document, maintaining the structure of tables and headers.
+3. **Agentic Reasoning**: Instead of just matching keywords, the agent analyzes the user's intent, identifies relevant sections, and synthesizes a professional summary as shown in the screenshot.
